@@ -1,0 +1,158 @@
+.syllabus-upload-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.upload-area {
+    border: 2px dashed #555;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-area:hover {
+    border-color: #888;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.upload-area.drag-active {
+    border-color: white;
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.02);
+}
+
+.upload-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.upload-area h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.upload-area p {
+    color: #d0d0d0;
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.browse-btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: white;
+    color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.browse-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+    background: #f0f0f0;
+}
+
+.file-info {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #333;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file-name {
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.file-size {
+    color: #d0d0d0;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.error-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(231, 76, 60, 0.15);
+    border-left: 4px solid #e74c3c;
+    border-radius: 4px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upload-btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: white;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.upload-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+    background: #f0f0f0;
+}
+
+.upload-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top-color: #000;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

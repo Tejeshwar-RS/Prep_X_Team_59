@@ -1,0 +1,156 @@
+{
+  "modules": [
+    {
+      "name": "Introduction",
+      "topics": [
+        {
+          "name": "Introduction to OS",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Functionality of OS",
+            "OS design issues",
+            "Structuring methods",
+            "Abstractions, processes, resources",
+            "Influence of security, networking, and multimedia"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OS Principles",
+      "topics": [
+        {
+          "name": "System calls",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "System/Application Call Interface",
+            "Protection: User/Kernel modes",
+            "Interrupts",
+            "Processes",
+            "Structures (Process Control Block, Ready List etc.)"
+          ]
+        },
+        {
+          "name": "Processes",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Process creation",
+            "management in Unix",
+            "Threads: User level, kernel level threads and thread models"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scheduling",
+      "topics": [
+        {
+          "name": "Processes Scheduling",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "CPU Scheduling: Pre-emptive, non-pre-emptive",
+            "Multiprocessor scheduling",
+            "Deadlocks",
+            "Resource allocation and management"
+          ]
+        },
+        {
+          "name": "Deadlocks",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Deadlock handling mechanisms: prevention, avoidance, detection, recovery"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concurrency",
+      "topics": [
+        {
+          "name": "Inter-process communication",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Synchronization - Implementing synchronization primitives (Peterson\u2019s solution, Bakery algorithm, synchronization hardware)"
+          ]
+        },
+        {
+          "name": "Synchronization",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Semaphores - Classical synchronization problems, Monitors: Solution to Dining Philosophers problem"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memory Management",
+      "topics": [
+        {
+          "name": "Main memory management",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Memory allocation strategies",
+            "Virtual memory: Hardware support for virtual memory (caching, TLB)"
+          ]
+        },
+        {
+          "name": "Virtual memory",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Paging - Segmentation - Demand Paging - Page Faults - Page Replacement -Thrashing - Working Set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtualization and File System",
+      "topics": [
+        {
+          "name": "Virtual Machines",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Virtualization (Hardware/Software, Server, Service, Network - Hypervisors - Container virtualization - Cost of virtualization"
+          ]
+        },
+        {
+          "name": "File system interface",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "File system implementation (directory implementation, file allocation methods) - File system recovery - Journaling - Soft updates - Log-structured file system"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Storage Management, Protection and Security",
+      "topics": [
+        {
+          "name": "Disk structure and attachment",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Disk scheduling algorithms (seek time, rotational latency based)"
+          ]
+        },
+        {
+          "name": "System threats and security",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Access vs authentication - System protection: Access matrix - Capability based systems"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contemporary Issues",
+      "topics": [
+        {
+          "name": "Total Lecture hours",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "45 hours"
+          ]
+        }
+      ]
+    }
+  ]
+}

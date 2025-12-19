@@ -1,0 +1,166 @@
+.syllabus-display-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.syllabus-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.modules-container {
+    display: grid;
+    gap: 2rem;
+}
+
+.module-card {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.module-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #333;
+}
+
+.module-name {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.topic-count {
+    background: white;
+    color: #000;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topics-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.topic-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-left: 4px solid white;
+    transition: all 0.3s ease;
+}
+
+.topic-item:hover {
+    border-left-color: #888;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.topic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.topic-name {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.difficulty-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.difficulty-badge.easy {
+    background: rgba(46, 204, 113, 0.2);
+    color: #2ecc71;
+}
+
+.difficulty-badge.medium {
+    background: rgba(241, 196, 15, 0.2);
+    color: #f1c40f;
+}
+
+.difficulty-badge.hard {
+    background: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+}
+
+.subtopics-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.subtopic-item {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #d0d0d0;
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subtopic-item::before {
+    content: '▸';
+    position: absolute;
+    left: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.practice-topic-btn {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.practice-topic-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+    background: #f0f0f0;
+}

@@ -1,0 +1,108 @@
+{
+  "modules": [
+    {
+      "name": "Introduction",
+      "topics": [
+        {
+          "name": "Introduction to OS",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Functionality of OS",
+            "OS design issues",
+            "Structuring methods"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OS Principles",
+      "topics": [
+        {
+          "name": "System calls",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "System/Application Call Interface",
+            "Protection"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scheduling",
+      "topics": [
+        {
+          "name": "Processes Scheduling",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "CPU Scheduling",
+            "Deadlocks"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concurrency",
+      "topics": [
+        {
+          "name": "Inter-process communication",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Synchronization",
+            "Implementing synchronization primitives"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memory Management",
+      "topics": [
+        {
+          "name": "Main memory management",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Memory allocation strategies",
+            "Virtual memory"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtualization and File System",
+      "topics": [
+        {
+          "name": "Virtualization",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Hardware/Software, Server, Service, Network",
+            "Hypervisors"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Storage Management, Protection and Security",
+      "topics": [
+        {
+          "name": "System threats and security",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Policy vs mechanism",
+            "Access vs authentication"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contemporary Issues",
+      "topics": [
+        {
+          "name": "Total Lecture hours",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Total Lecture hours"
+          ]
+        }
+      ]
+    }
+  ]
+}

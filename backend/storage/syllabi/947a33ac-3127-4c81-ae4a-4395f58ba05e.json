@@ -1,0 +1,241 @@
+{
+  "modules": [
+    {
+      "name": "Module 1: Introduction To Computer Architecture and Organization",
+      "topics": [
+        {
+          "name": "Overview of Organization and Architecture",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Registers and register files",
+            "Interconnection of components",
+            "Overview of IAS computer function",
+            "Organization of the von Neumann machine",
+            "Harvard architecture",
+            "CISC & RISC Architectures"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 2: Data Representation and Computer Arithmetic",
+      "topics": [
+        {
+          "name": "Algorithms for fixed point arithmetic operations",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Multiplication (Booths, Modified Booths)",
+            "Division (restoring and non-restoring)"
+          ]
+        },
+        {
+          "name": "Algorithms for floating point arithmetic operations",
+          "difficulty_hint": "medium",
+          "subtopics": []
+        },
+        {
+          "name": "Representation of nonnumeric data (character codes)",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module 3: Instruction Sets and Control Unit",
+      "topics": [
+        {
+          "name": "Computer Instructions",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Instruction sets",
+            "Instruction Set Architecture",
+            "Instruction formats",
+            "Instruction set categories",
+            "Addressing modes",
+            "Phases of instruction cycle",
+            "ALU",
+            "Data\u2010path and control unit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 4: Memory System Organization and Architecture",
+      "topics": [
+        {
+          "name": "Memory systems hierarchy",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Characteristics",
+            "Byte Storage methods",
+            "Conceptual view of memory cell"
+          ]
+        },
+        {
+          "name": "Design of scalable memory using RAM\u2019s- ROM\u2019s chips",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Construction of larger size memories",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Memory Interleaving",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Memory interface address map",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Cache memory: principles",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Cache memory management techniques",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Types of caches",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Caches misses",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Mean memory access time evaluation of cache",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module 5: Interfacing and Communication",
+      "topics": [
+        {
+          "name": "I/O fundamentals",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "handshaking",
+            "buffering",
+            "I/O Modules"
+          ]
+        },
+        {
+          "name": "I/O techniques",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Programmed I/O",
+            "Interrupt-driven I/O",
+            "Direct Memory Access",
+            "Direct Cache Access"
+          ]
+        },
+        {
+          "name": "Interrupt structures",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Vectored",
+            "Prioritized-interrupt overhead"
+          ]
+        },
+        {
+          "name": "Buses",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Synchronous",
+            "asynchronous",
+            "Arbitration"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 6: Subsystems",
+      "topics": [
+        {
+          "name": "External storage systems",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Solid state drivers",
+            "Organization and Structure of disk drives",
+            "Electronic- magnetic and optical technologies",
+            "Reliability of memory systems",
+            "Error detecting and error correcting systems",
+            "RAID Levels",
+            "I/O Performance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 7: High Performance Processors",
+      "topics": [
+        {
+          "name": "Classification of models",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "Flynn\u2019s taxonomy of parallel machine models",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "SISD",
+            "SIMD",
+            "MISD",
+            "MIMD"
+          ]
+        },
+        {
+          "name": "Pipelining",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Two stages",
+            "Multi stage pipelining",
+            "Basic performance issues in pipelining",
+            "Hazards",
+            "Methods to prevent and resolve hazards and their drawbacks"
+          ]
+        },
+        {
+          "name": "Superscalar architecture",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Limitations of scalar pipelines",
+            "superscalar versus super pipeline architecture",
+            "superscalar techniques",
+            "performance evaluation of superscalar architecture"
+          ]
+        },
+        {
+          "name": "performance evaluation of parallel processors",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Amdahl\u2019s law",
+            "speed-up",
+            "efficiency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 8: Contemporary Issues",
+      "topics": [
+        {
+          "name": "Total Lecture Hours",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        }
+      ]
+    }
+  ]
+}

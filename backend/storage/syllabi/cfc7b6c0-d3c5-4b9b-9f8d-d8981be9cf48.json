@@ -1,0 +1,120 @@
+{
+  "modules": [
+    {
+      "name": "Introduction",
+      "topics": [
+        {
+          "name": "Introduction to OS",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Functionality of OS",
+            "OS design issues",
+            "Structuring methods (monolithic, layered, modular, micro-kernel models)",
+            "Abstractions, processes, resources",
+            "Influence of security, networking, and multimedia"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OS Principles",
+      "topics": [
+        {
+          "name": "System calls, System/Application Call Interface \u2013 Protection",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "User/Kernel modes",
+            "Interrupts",
+            "Processes",
+            "Structures (Process Control Block, Ready List etc.)",
+            "Process creation, management in Unix",
+            "Threads: User level, kernel level threads and thread models"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scheduling",
+      "topics": [
+        {
+          "name": "Processes Scheduling - CPU Scheduling",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Pre-emptive, non-pre-emptive",
+            "Multiprocessor scheduling",
+            "Deadlocks",
+            "Resource allocation and management",
+            "Deadlock handling mechanisms: prevention, avoidance, detection, recovery"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concurrency",
+      "topics": [
+        {
+          "name": "Inter-process communication, Synchronization",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Implementing synchronization primitives (Peterson\u2019s solution, Bakery algorithm, synchronization hardware)",
+            "Semaphores",
+            "Classical synchronization problems",
+            "Monitors: Solution to Dining Philosophers problem",
+            "IPC in Unix, Multiprocessors and Locking",
+            "Scalable Locks",
+            "Lock-free coordination"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memory Management",
+      "topics": [
+        {
+          "name": "Main memory management, Memory allocation strategies",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Virtual memory: Hardware support for virtual memory (caching, TLB)",
+            "Paging",
+            "Segmentation",
+            "Demand Paging",
+            "Page Faults",
+            "Page Replacement",
+            "Thrashing",
+            "Working Set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtualization and File System",
+      "topics": [
+        {
+          "name": "Virtual Machines - Virtualization (Hardware/Software, Server, Service, Network - Hypervisors - Container virtualization - Cost of virtualization - File system interface (access methods, directory structures) - File system implementation (directory implementation, file allocation methods) - File system recovery - Journaling - Soft updates - Log-structured file system - Distributed file system",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Storage Management, Protection and Security",
+      "topics": [
+        {
+          "name": "Disk structure and attachment \u2013 Disk scheduling algorithms (seek time, rotational latency based)- System threats and security \u2013 Policy vs mechanism - Access vs authentication - System protection: Access matrix \u2013 Capability based systems - OS: performance, scaling, future directions in mobile OS",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Contemporary Issues",
+      "topics": [
+        {
+          "name": "Total Lecture hours: 45 hours",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        }
+      ]
+    }
+  ]
+}

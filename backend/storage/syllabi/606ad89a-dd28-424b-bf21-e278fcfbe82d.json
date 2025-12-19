@@ -1,0 +1,169 @@
+{
+  "modules": [
+    {
+      "name": "Module 1: Introduction To Computer Architecture and Organization",
+      "topics": [
+        {
+          "name": "Overview of Organization and Architecture",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Registers and register files",
+            "Interconnection of components",
+            "Overview of IAS computer function",
+            "Organization of the von Neumann machine",
+            "Harvard architecture",
+            "CISC & RISC Architectures"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 2: Data Representation and Computer Arithmetic",
+      "topics": [
+        {
+          "name": "Algorithms for fixed point arithmetic operations",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Multiplication (Booths, Modified Booths)",
+            "Division (restoring and non-restoring)"
+          ]
+        },
+        {
+          "name": "Algorithms for floating point arithmetic operations",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Representation of nonnumeric data (character codes)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 3: Instruction Sets and Control Unit",
+      "topics": [
+        {
+          "name": "Computer Instructions",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Instruction sets",
+            "Instruction Set Architecture",
+            "Instruction formats",
+            "Instruction set categories",
+            "Addressing modes",
+            "Phases of instruction cycle",
+            "ALU",
+            "Data\u2010path and control unit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 4: Memory System Organization and Architecture",
+      "topics": [
+        {
+          "name": "Memory systems hierarchy",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Characteristics",
+            "Byte Storage methods",
+            "Conceptual view of memory cell",
+            "Design of scalable memory using RAM\u2019s- ROM\u2019s chips",
+            "Construction of larger size memories",
+            "Memory Interleaving",
+            "Memory interface address map",
+            "Cache memory: principles",
+            "Cache memory management techniques",
+            "Types of caches",
+            "caches misses",
+            "Mean memory access time evaluation of cache"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 5: Interfacing and Communication",
+      "topics": [
+        {
+          "name": "I/O fundamentals",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "handshaking",
+            "buffering",
+            "I/O Modules"
+          ]
+        },
+        {
+          "name": "I/O techniques",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Programmed I/O",
+            "Interrupt-driven I/O",
+            "Direct Memory Access",
+            "Direct Cache Access"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 6: Subsystems",
+      "topics": [
+        {
+          "name": "External storage systems",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Solid state drivers",
+            "Organization and Structure of disk drives: Electronic- magnetic and optical technologies",
+            "Reliability of memory systems",
+            "Error detecting and error correcting systems",
+            "RAID Levels",
+            "I/O Performance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 7: High Performance Processors",
+      "topics": [
+        {
+          "name": "Classification of models",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Flynn\u2019s taxonomy of parallel machine models (SISD, SIMD, MISD, MIMD)"
+          ]
+        },
+        {
+          "name": "Pipelining",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Two stages",
+            "Multi stage pipelining",
+            "Basic performance issues in pipelining",
+            "Hazards",
+            "Methods to prevent and resolve hazards and their drawbacks"
+          ]
+        },
+        {
+          "name": "Superscalar architecture",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Limitations of scalar pipelines",
+            "superscalar versus super pipeline architecture",
+            "superscalar techniques",
+            "performance evaluation of superscalar architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module 8: Contemporary Issues",
+      "topics": [
+        {
+          "name": "Total Lecture Hours",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "45 Hours"
+          ]
+        }
+      ]
+    }
+  ]
+}

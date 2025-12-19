@@ -1,0 +1,140 @@
+{
+  "modules": [
+    {
+      "name": "Module:1 Introduction",
+      "topics": [
+        {
+          "name": "Introduction to OS",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Functionality of OS",
+            "OS design issues",
+            "Structuring methods (monolithic, layered, modular, micro-kernel models)",
+            "Abstractions, processes, resources",
+            "Influence of security, networking, and multimedia"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:2 OS Principles",
+      "topics": [
+        {
+          "name": "System calls, System/Application Call Interface \u2013 Protection",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "User/Kernel modes",
+            "Interrupts",
+            "Processes",
+            "Structures (Process Control Block, Ready List etc.)",
+            "Process creation, management in Unix",
+            "Threads: User level, kernel level threads and thread models"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:3 Scheduling",
+      "topics": [
+        {
+          "name": "Processes Scheduling - CPU Scheduling",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Pre-emptive, non-pre-emptive",
+            "Multiprocessor scheduling",
+            "Deadlocks",
+            "Resource allocation and management",
+            "Deadlock handling mechanisms: prevention, avoidance, detection, recovery"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:4 Concurrency",
+      "topics": [
+        {
+          "name": "Inter-process communication, Synchronization",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Implementing synchronization primitives (Peterson\u2019s solution, Bakery algorithm, synchronization hardware)",
+            "Semaphores",
+            "Classical synchronization problems",
+            "Monitors: Solution to Dining Philosophers problem",
+            "IPC in Unix, Multiprocessors and Locking - Scalable Locks - Lock-free coordination"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:5 Memory Management",
+      "topics": [
+        {
+          "name": "Main memory management, Memory allocation strategies",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Virtual memory: Hardware support for virtual memory (caching, TLB)",
+            "Paging",
+            "Segmentation",
+            "Demand Paging",
+            "Page Faults",
+            "Page Replacement",
+            "Thrashing",
+            "Working Set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:6 Virtualization and File System",
+      "topics": [
+        {
+          "name": "Virtual Machines - Virtualization",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Hardware/Software, Server, Service, Network - Hypervisors",
+            "Container virtualization",
+            "Cost of virtualization",
+            "File system interface (access methods, directory structures)",
+            "File system implementation (directory implementation, file allocation methods)",
+            "File system recovery",
+            "Journaling",
+            "Soft updates",
+            "Log-structured file system - Distributed file system"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:7 Storage Management, Protection and Security",
+      "topics": [
+        {
+          "name": "Disk structure and attachment",
+          "difficulty_hint": "medium",
+          "subtopics": [
+            "Disk scheduling algorithms (seek time, rotational latency based)",
+            "System threats and security",
+            "Policy vs mechanism",
+            "Access vs authentication",
+            "System protection: Access matrix",
+            "Capability based systems",
+            "OS: performance, scaling, future directions in mobile OS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module:8 Contemporary Issues",
+      "topics": [
+        {
+          "name": "Total Lecture hours: 45 hours",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Text Book",
+            "Reference Books",
+            "Mode of Evaluation: CAT, Written Assignment, Quiz, FAT"
+          ]
+        }
+      ]
+    }
+  ]
+}

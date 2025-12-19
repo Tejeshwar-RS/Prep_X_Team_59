@@ -1,0 +1,96 @@
+{
+  "name": "BENG101L Technical English Communication",
+  "credits": 2,
+  "hours": 30,
+  "textbook": "Raman, Meenakshi & Sangeeta Sharma. (2015). Technical Communication: Principles and Practice, (3rd Edition). India: Oxford University Press.",
+  "modules": [
+    {
+      "name": "Module:1 Introduction to Communication",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Nature and Process - Types of communication: Intra-personal, Interpersonal, Group-verbal and non-verbal communication / Cross-cultural Communication - Communication Barriers and Essentials of good communication - Principles of Effective Communications",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:2 Grammatical Aspects",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Sentence Pattern - Modal Verbs - Concord (SVA) - Conditionals - Error detection",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:3 Written Correspondence",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Job Application Letters - Resume Writing - Statement of Purpose",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:4 Business Correspondence",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Business Letters: Calling for Quotation, Complaint & Sales Letter \u2013 Memo - Minutes of Meeting - Describing products and processes",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:5 Professional Writing",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Paraphrasing & Summarizing - Executive Summary - Structure and Types of Proposal \u2013 Recommendations",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:6 Team Building & Leadership Skills",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Principles of Leadership - Team Leadership Model - Negotiation Skills - Conflict Management",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:7 Research Writing",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "Interpreting and Analysing a research article - Approaches to Review Paper Writing - Structure of a research article - Referencing",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Module:8 Guest Lecture from Industry and R&D organizations",
+      "hours": 2,
+      "topics": [
+        {
+          "name": "Contemporary Issues",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    }
+  ]
+}

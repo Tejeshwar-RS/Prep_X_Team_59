@@ -1,0 +1,218 @@
+{
+  "modules": [
+    {
+      "name": "Introduction",
+      "hours": 3,
+      "topics": [
+        {
+          "name": "Functionality of OS",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "OS design issues",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "Structuring methods",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "monolithic",
+            "layered",
+            "modular",
+            "micro-kernel models"
+          ]
+        },
+        {
+          "name": "Abstractions",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "Processes",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Process Control Block",
+            "Ready List"
+          ]
+        },
+        {
+          "name": "Resources",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "Influence of security, networking, and multimedia",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "OS Principles",
+      "hours": 4,
+      "topics": [
+        {
+          "name": "System calls",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "System/Application Call Interface",
+          "difficulty_hint": "easy",
+          "subtopics": []
+        },
+        {
+          "name": "Protection",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "User/Kernel modes",
+            "Interrupts"
+          ]
+        },
+        {
+          "name": "Processes",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "Process creation",
+            "management in Unix"
+          ]
+        },
+        {
+          "name": "Threads",
+          "difficulty_hint": "easy",
+          "subtopics": [
+            "User level",
+            "kernel level threads"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scheduling",
+      "hours": 9,
+      "topics": [
+        {
+          "name": "Processes Scheduling",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "CPU Scheduling",
+            "Multiprocessor scheduling"
+          ]
+        },
+        {
+          "name": "Deadlocks",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Resource allocation and management",
+            "Deadlock handling mechanisms"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concurrency",
+      "hours": 8,
+      "topics": [
+        {
+          "name": "Inter-process communication",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Synchronization",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Implementing synchronization primitives"
+          ]
+        },
+        {
+          "name": "Monitors",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Solution to Dining Philosophers problem"
+          ]
+        },
+        {
+          "name": "IPC in Unix",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Memory Management",
+      "hours": 7,
+      "topics": [
+        {
+          "name": "Main memory management",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Memory allocation strategies",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "Virtual memory",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Hardware support for virtual memory"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtualization and File System",
+      "hours": 6,
+      "topics": [
+        {
+          "name": "Virtual Machines",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "File system interface",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "File system implementation",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "name": "Storage Management, Protection and Security",
+      "hours": 6,
+      "topics": [
+        {
+          "name": "Disk structure and attachment",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "System threats and security",
+          "difficulty_hint": "hard",
+          "subtopics": []
+        },
+        {
+          "name": "System protection",
+          "difficulty_hint": "hard",
+          "subtopics": [
+            "Access matrix",
+            "Capability based systems"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contemporary Issues",
+      "hours": 2,
+      "topics": []
+    }
+  ]
+}

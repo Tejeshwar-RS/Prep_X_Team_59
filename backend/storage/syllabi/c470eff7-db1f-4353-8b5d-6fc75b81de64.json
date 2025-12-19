@@ -1,0 +1,112 @@
+{
+  "name": "BCSE205L Computer Architecture and Organization",
+  "credits": 3,
+  "prerequisites": "NIL",
+  "syllabusVersion": "1.0",
+  "modules": [
+    {
+      "name": "Module:1 Introduction To Computer Architecture and Organization",
+      "hours": 5,
+      "topics": [
+        "Overview of Organization and Architecture",
+        "Functional components of a computer: Registers and register files",
+        "Interconnection of components",
+        "Overview of IAS computer function",
+        "Organization of the von Neumann machine",
+        "Harvard architecture",
+        "CISC & RISC Architectures"
+      ]
+    },
+    {
+      "name": "Module:2 Data Representation and Computer Arithmetic",
+      "hours": 5,
+      "topics": [
+        "Algorithms for fixed point arithmetic operations: Multiplication (Booths, Modified Booths), Division (restoring and non-restoring)",
+        "Algorithms for floating point arithmetic operations",
+        "Representation of nonnumeric data (character codes)"
+      ]
+    },
+    {
+      "name": "Module:3 Instruction Sets and Control Unit",
+      "hours": 9,
+      "topics": [
+        "Computer Instructions: Instruction sets, Instruction Set Architecture, Instruction formats, Instruction set categories",
+        "Addressing modes",
+        "Phases of instruction cycle \u2013 ALU",
+        "Data\u2010path and control unit: Hardwired control unit and Micro programmed control unit",
+        "Performance metrics: Execution time calculation, MIPS, MFLOPS"
+      ]
+    },
+    {
+      "name": "Module:4 Memory System Organization and Architecture",
+      "hours": 7,
+      "topics": [
+        "Memory systems hierarchy: Characteristics, Byte Storage methods",
+        "Conceptual view of memory cell",
+        "Design of scalable memory using RAM\u2019s- ROM\u2019s chips",
+        "Construction of larger size memories",
+        "Memory Interleaving",
+        "Memory interface address map",
+        "Cache memory: principles, Cache memory management techniques, Types of caches, caches misses, Mean memory access time evaluation of cache"
+      ]
+    },
+    {
+      "name": "Module:5 Interfacing and Communication",
+      "hours": 5,
+      "topics": [
+        "I/O fundamentals: handshaking, buffering, I/O Modules",
+        "I/O techniques: Programmed I/O, Interrupt-driven I/O, Direct Memory Access, Direct Cache Access",
+        "Interrupt structures: Vectored and Prioritized-interrupt overhead",
+        "Buses: Synchronous and asynchronous - Arbitration"
+      ]
+    },
+    {
+      "name": "Module:6 Subsystems",
+      "hours": 5,
+      "topics": [
+        "External storage systems: Solid state drivers",
+        "Organization and Structure of disk drives: Electronic- magnetic and optical technologies",
+        "Reliability of memory systems",
+        "Error detecting and error correcting systems",
+        "RAID Levels",
+        "I/O Performance"
+      ]
+    },
+    {
+      "name": "Module:7 High Performance Processors",
+      "hours": 7,
+      "topics": [
+        "Classification of models",
+        "Flynn\u2019s taxonomy of parallel machine models (SISD, SIMD, MISD, MIMD)",
+        "Pipelining: Two stages, Multi stage pipelining, Basic performance issues in pipelining, Hazards, Methods to prevent and resolve hazards and their drawbacks",
+        "Approaches to deal branches",
+        "Superscalar architecture: Limitations of scalar pipelines, superscalar versus super pipeline architecture, superscalar techniques, performance evaluation of superscalar architecture",
+        "performance evaluation of parallel processors: Amdahl\u2019s law, speed-up and efficiency"
+      ]
+    },
+    {
+      "name": "Module:8 Contemporary Issues",
+      "hours": 2,
+      "topics": []
+    }
+  ],
+  "courseObjectives": [
+    "To acquaint students with the basic concepts of fundamental component, architecture, register organization and performance metrics of a computer and to impart the knowledge of data representation in binary and to understand the implementation of arithmetic algorithms in a typical computer.",
+    "To teach students how to describe machine capabilities and design an effective data path design for instruction execution. To introduce students to syntax and semantics of machine level programming.",
+    "To make students understand the importance of memory systems, IO interfacing techniques and external storage and their performance metrics for a typical computer. And explore various alternate techniques for improving the performance of a processor."
+  ],
+  "courseOutcomes": [
+    "Differentiate Von Neumann, Harvard, and CISC and RISC architectures. Analyze the performance of machine with different capabilities. Recognize different instruction formats and addressing modes. Validate efficient algorithm for fixed point and floating point arithmetic operations.",
+    "Explain the importance of hierarchical memory organization. Able to construct larger memories. Analyze and suggest efficient cache mapping technique and replacement algorithms for given design requirements. Demonstrate hamming code for error detection and correction.",
+    "Understand the need for an interface. Compare and contrast memory mapping and IO mapping techniques. Describe and Differentiate different modes of data transfer. Appraise the synchronous and asynchronous bus for performance and arbitration.",
+    "Assess the performance of IO and external storage systems. Classify parallel machine models. Analyze the pipeline hazards and solutions."
+  ],
+  "textBooks": [
+    "David A. Patterson and John L. Hennessy, Computer Organization and Design -The Hardware / Software Interface 6th Edition, Morgan Kaufmann, 2020"
+  ],
+  "referenceBooks": [
+    "Computer Architecture and Organization-Designing for Performance, William Stallings, Tenth edition, Pearson Education series, 2016",
+    "Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Computer organization, Mc Graw Hill, Fifth edition, Reprint 2011."
+  ],
+  "modeOfEvaluation": "CAT, Written Assignments, Quiz and FAT"
+}
